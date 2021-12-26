@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+
+@media all and (min-width:400px){
+	#wrapCourse .aida_bg li a {
+		font-size:20px
+	}
+
+	#pointResort h2 a {
+		font-size:4vw;
+		line-height:30px;
+	}
+
+
+}
+
+
+
+
+
+/* *********************************** tablet용 css */
+
+
+
+@media all and (min-width:768px){
+	body {font-size:15px}
+
+	/*  banner 영역 */	
+	
+/*	#banner .banner_btn a {
+		
+		background:url(../images/bg_pc_btn.png) no-repeat ;
+		background-size:200%
+	}
+*/	
+	.banner ul li img {
+		min-width:1120px
+	}
+
+/* course 영역 */
+	#course .aida_course {
+		position:relative;
+		width:90%;
+		max-width:1024px;
+		max-height:540px;
+		margin:0 auto
+	}
+	#course .aida_course li {
+	}
+	#wrapCourse .aida_bg {
+		position:relative;left:0%;top:0;	
+		max-height:540px;
+		margin:0
+	}
+	#wrapCourse .aida_bg li {
+		margin:0 0 8%
+	}
+	.pop {
+		width:60%;
+		position:absolute;right:0;top:0;		
+		background:rgba(0,0,0,0.3)
+	}
+	.pop li {color:#fff}
+
+	/* point & resort 영역 */
+	#pointResort h2 a {
+		height:60px;
+		line-height:60px;
+		padding:0
+	}
+	.pr_inbox ul {
+		width:100%
+	}
+	.pr_inbox ul li {
+		float:left;	
+		width:50%;
+		padding-bottom:50px
+	}
+	
+	.pr_inbox li img {
+		width:343px
+	}
+	.pr_inbox li dl {		
+		width:80%;
+		margin:0 auto;
+	}
+	.pr_inbox li dd {
+		padding-bottom:0
+	}
+	.pr_inbox li {
+		overflow:hidden
+	}
+
+
+	/* contact 영역 */
+	.faq {
+	width:756px; 
+	margin:0 auto;
+	}
+	.li_cont {
+		float:left
+	}
+	.li_user {
+		float:right;
+	}
+	.send {
+		float:right;
+	}
+
+	.faq .faq_ul {
+		width:640px
+	}
+	.faq .faq_ul > li {
+		width:48%
+	}
+
+	.li_user ul {
+		margin-top:0
+	}
+	
+	.li_cont {
+		
+	}
+}
+
+/* *********************************** pc용 css */
+@media all and (min-width:1132px){
+
+	#header {
+		width:1024px;
+		margin:0 auto
+	}
+
+	#nav {
+		display:block;
+		position:static; /* 포지션 값 필요 없음 - 기본값으로 돌릴 때 사용 */
+		float:right;
+		width:100%; /* 기본값 : 브라우저가 너비를 자동 계산함 */
+		margin-top:-30px;
+		text-align:right;
+		background-color:transparent /* nav li a 다 작업하고 더할 것 */
+	}
+
+	#nav li {
+		display:inline-block;
+		padding-left:3%
+	} 
+
+	#nav li a {
+		font-size:16px;
+		color:#fff
+	}
+
+	#header .toggle_btn {display:none}
+/*
+	.banner .banner_btn {
+	position:absolute;left:50%;top:38%;
+	width:1024px;
+	margin-left:-512px;
+	height:25%;
+	}
+
+	.banner .banner_btn a {
+	display:inline-block;
+	width:50px;
+	height:50px;
+	margin:0;
+	background:url(../images/bg_pc_btn.png) no-repeat ;
+	background-size:200%
+	}
+*/
+#about {
+	padding-top:0
+}
+/* course 영역 */
+	#course .aida_course {
+		width:1024px
+	}
+	#course .aida_course .aida_bg {
+		margin:0
+	}
+
+/* point & resort 영역 */
+	.pr_inbox ul {		
+		width:1024px
+	}
+	.pr_inbox ul li {
+	
+	}
+	
+	.pr_inbox li img {
+		width:343px
+	}
+
+	.pr_inbox li dl {
+	
+	}
+
+		#pointResort h2 a {
+		font-size:35px;
+		line-height:60px;
+	}
+
+
+
+}
